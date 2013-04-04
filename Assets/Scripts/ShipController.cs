@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 
 public class ShipController : MonoBehaviour {
-	public float turnRate = 100f;
+	public float turnRate = 1000f;
 	public float thrustRate = 1000f;
 	
 	void FixedUpdate() {
