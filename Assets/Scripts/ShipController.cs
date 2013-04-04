@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ShipController : MonoBehaviour {
 	public float turnRate = 100f;
-	public float thrustRate = 100f;
+	public float thrustRate = 1000f;
 	
 	void FixedUpdate() {
 		var turnInput = Input.GetAxis("Horizontal");
